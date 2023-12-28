@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="navigation">
+          <div class="nav__parent">
+            <div class="nav__logo">
+              <img src="./img/Logotype_logo day line.png" alt="" />
+            </div>
+            <div class="nav__links">
+              <a class="nav__link" href="">Купить авто</a>
+              <a class="nav__link" href="">Продать авто</a>
+              <a class="nav__link" href="">Услуги</a>
+              <a class="nav__link" href="">О компании</a>
+              <a class="nav__link" href="">Контакты</a>
+            </div>
+            <div class="nav__contact">
+              <select class="nav__select" name="" id="">
+                <option disabled>выберите город</option>
+                <option>Батайск</option>
+                <option>Питер</option>
+                <option>Москва</option>
+              </select>
+            </div>
+            <div class="nav__number">
+              <p class="nav__p">8 (800)-551-84-21</p>
+            </div>
+          </div>
+        </nav>
+        <div class="search">
+          <input class="search__input" type="text" placeholder="   Поиск" />
+          <select class="search__select" name="" id="">
+            <option>Все бренды</option>
+            <option>Mercedes-Benz</option>
+            <option>BMW</option>
+            <option>Audi</option>
+          </select>
+          <div class="search__img">
+              <img class="search__image" src="./img/Frame 2.png" alt="" />
+            <img class="search__image" src="./img/Frame 2 (1).png" alt="" />
+            <img class="search__image" src="./img/Group 5.png" alt="" />
+          </div>
+          <div class="search__call">
+            <h1 class="search__h1">Заказать звонок</h1>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="up">
+          <div class="up__text">
+            <h1 class="up__h1">Автомаркет</h1>
+            <div class="up__h_text">
+              <div class="up__left"><img src="./img/check.png" alt="" /></div>
+              <div class="up__right">Проверенный дилер</div>
+            </div>
+            <div class="up__h_text_one">
+              <div class="up__left"><img src="./img/check.png" alt="" /></div>
+              <div class="up__right">Выгодный trade-in</div>
+            </div>
+            <div class="up__h_text_one">
+              <div class="up__left"><img src="./img/check.png" alt="" /></div>
+              <div class="up__right">Поддержанные авто в кредит</div>
+            </div>
+            <div class="up__h_text_one">
+              <div class="up__left"><img src="./img/check.png" alt="" /></div>
+              <div class="up__right">Комиссионная продажа</div>
+            </div>
+          </div>
+        </div>
+        <div class="up_cards">
+          <div class="up_card__one">
+            <div class="up_card__h1">Купить автомобиль</div>
+            <div class="up_card__p">
+              <p>
+                Выберите один из X автомобилей <br />
+                с пробегом, все в наличии
+              </p>
+            </div>
+
+            <div class="up_card_a">
+              <a class="up_card__a" href="">Смотреть каталог</a>
+            </div>
+          </div>
+
+          <div class="up_card__two">
+            <div class="up_card__h2">Продать автомобиль</div>
+            <div class="up_card__p2">
+              Выкупим ваш автомобиль. <br />
+              Быстрая оценка за 2 минуты
+            </div>
+            <div class="up_card_a2">
+              <a class="up_card__a2" href="">Онлайн оценка авто</a>
+            </div>
+          </div>
+        </div>
+        <div class="container__h">
+          <div class="container__h1">
+            <h1>Выбрать автомобиль с пробегом в</h1>
+          </div>
+          <div class="container__h2"><h1>Батайске ></h1></div>
+        </div>
+        <div class="down">
+          <div class="down_navi">
+            <select class="down_navi__sel" name="" id="">
+              <option selected disabled>Марка</option>
+              <option>BMW</option>
+              <option>Mercedes-Benz</option>
+              <option>Lada</option>
+              <option>Bugatti</option>
+            </select>
+            <select class="down_navi__sel" name="" id="">
+              <option selected disabled>Модель</option>
+              <option>BMW M5</option>
+              <option>Mercedes-Benz Maybach gls 600</option>
+              <option>Lada 2107</option>
+              <option>Bugatti Veyron</option>
+            </select>
+            <select class="down_navi__sel" name="" id="">
+              <option selected disabled>Цена от</option>
+              <option>1.000.000</option>
+              <option>5.000.000</option>
+              <option>10.000.000</option>
+              <option>15.000.000+</option>
+            </select>
+            <select class="down_navi__sel" name="" id="">
+              <option selected disabled>Цена до</option>
+              <option>2.000.000</option>
+              <option>6.000.000</option>
+              <option>10.000.000</option>
+              <option>15.000.000</option>
+            </select>
+            <select class="down_navi__sel" name="" id="">
+              <option selected disabled>Коробка</option>
+              <option>Автомат</option>
+              <option>Механика</option>
+            </select>
+          </div>
+          <div class="down_buttons">
+            <div class="down_navi__buttons">
+              <button class="down_navi__but">Продает собственник</button>
+            </div>
+            <div class="doown">
+              <button class="down_navi__butt">Новые поступления</button>
+            </div>
+            <div class="doown">
+              <button class="down_navi__button">Выгодная цена</button>
+            </div>
+          </div>
+          <div class="down_line"></div>
+          <div class="down_down">
+            <div class="down_switch">
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </div>
+            <div class="down_end_button">
+              <button class="down_but_clear">Очистить поиск</button>
+              <button class="down_but_show">Показать 2 304 авто</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container_two">
+        <div class="container_two_left">
+          <div class="contwo_navigation">
+            <h1 class="contwo_h1">По типу кузова</h1>
+            <div class="contwo_aa">
+              <a class="contwo_a" href="">Седаны</a>
+              <a class="contwo_a" href="">Внедорожники</a>
+              <a class="contwo_a" href="">Хэтчбеки</a>
+              <a class="contwo_a" href="">Универсалы</a>
+              <a class="contwo_a" href="">Купе</a>
+              <a class="contwo_a" href="">Показать все 175 авто</a>
+            </div>
+          </div>
+        </div>
+        <div class="container_two_right">
+          <div class="contr_hh">
+            <h1 class="contr_hh_h1">Продажа авто с пробегом в</h1>
+            <h1 class="contr_hh_h2">Батайске ></h1>
+          </div>
+          <div class="contr_buttons">
+            <button class="contr_but1">По размеру скидки</button>
+            <button class="contr_but">до 300.000 Р</button>
+            <button class="contr_but">до 500.000 Р</button>
+            <button class="contr_but">до 800.000 Р</button>
+          </div>
+          <div class="contr_buttons">
+            <button class="contr_but">до 1.500.000 Р</button>
+            <button class="contr_but1">больше 1.500.000 Р</button>
+          </div>
+          <div class="slider">
+            <div class="contr_cards">
+              <div class="contr__card">
+                <div class="contr_card_img">
+                  <img src="./img/caaaaaaaaaaard.png" alt="" />
+                </div>
+                <div class="contr_card__text">
+                  <h1 class="contr_card_text_h1">Lada Niva TRAVEL</h1>
+                  <p class="contr_card_text_p">
+                    Niva TRAVEL,2020 г.в. 83 478 км, <br />
+                    внедорожник, РКПП, бензин, 333 лс
+                  </p>
+                  <div class="contr_card_price">
+                    <div class="contr_card_price_in">
+                      <p class="contr_card_p_a">Автомаркет Грушевская</p>
+                      <div class="contr_card__pr">
+                        <h1 class="contr_card_pr">783 000 Р</h1>
+                        <p class="contr_card_pri">870 000 Р</p>
+                      </div>
+                      <div class="contr_card_credit">
+                        <p class="contr_card_cr">кредит</p>
+                        <p class="contr_card_cre">от 6 000 Р/мес</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="contr_card__a" href="">Смотреть авто</a>
+              </div>
+              <div class="contr__card">
+                <div class="contr_card_img">
+                  <img src="./img/0000000000.png" alt="" />
+                </div>
+                <div class="contr_card__text">
+                  <h1 class="contr_card_text_h1">Lada Niva TRAVEL</h1>
+                  <p class="contr_card_text_p">
+                    Niva TRAVEL,2020 г.в. 83 478 км, <br />
+                    внедорожник, РКПП, бензин, 333 лс
+                  </p>
+                  <div class="contr_card_price">
+                    <div class="contr_card_price_in">
+                      <p class="contr_card_p_a">Автомаркет Грушевская</p>
+                      <div class="contr_card__pr">
+                        <h1 class="contr_card_pr">783 000 Р</h1>
+                        <p class="contr_card_pri">870 000 Р</p>
+                      </div>
+                      <div class="contr_card_credit">
+                        <p class="contr_card_cr">кредит</p>
+                        <p class="contr_card_cre">от 6 000 Р/мес</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="contr_card__a" href="">Смотреть авто</a>
+              </div>
+              <div class="contr__card">
+                <div class="contr_card_img">
+                  <img src="./img/mashinka.png" alt="" />
+                </div>
+                <div class="contr_card__text">
+                  <h1 class="contr_card_text_h1">Lada Niva TRAVEL</h1>
+                  <p class="contr_card_text_p">
+                    Niva TRAVEL,2020 г.в. 83 478 км, <br />
+                    внедорожник, РКПП, бензин, 333 лс
+                  </p>
+                  <div class="contr_card_price1">
+                    <div class="contr_card_price_in">
+                      <p class="contr_card_p_a">Автомаркет Грушевская</p>
+                      <div class="contr_card__pr">
+                        <h1 class="contr_card_pr">783 000 Р</h1>
+                        <p class="contr_card_pri">870 000 Р</p>
+                      </div>
+                      <div class="contr_card_credit">
+                        <p class="contr_card_cr">кредит</p>
+                        <p class="contr_card_cre">от 6 000 Р/мес</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="contr_card__a" href="">Смотреть авто</a>
+              </div>
+              <div class="contr__card1">
+                  <div class="contr_card_img1">
+                    <img src="./img/0000000000.png" alt="" />
+                  </div>
+                  <div class="contr_card__text1">
+                    <h1 class="contr_card_text_h11">Lada Niva TRAVEL</h1>
+                    <p class="contr_card_text_p1">
+                      Niva TRAVEL,2020 г.в. 83 478 км, <br />
+                      внедорожник, РКПП, бензин, 333 лс
+                    </p>
+                    <div class="contr_card_price11">
+                      <div class="contr_card_price_in1">
+                        <p class="contr_card_p_a1">Автомаркет Грушевская</p>
+                        <div class="contr_card__pr1">
+                          <h1 class="contr_card_pr1">783 000 Р</h1>
+                          <p class="contr_card_pri1">870 000 Р</p>
+                        </div>
+                        <div class="contr_card_credit1">
+                          <p class="contr_card_cr1">кредит</p>
+                          <p class="contr_card_cre1">от 6 000 Р/мес</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="contr_card__a1" href="">Смотреть авто</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container_e">
+        <div class="container_e_left">
+          <div class="cont_e_h">
+            <h1 class="cont_e_hh">Заявка</h1>
+            <h1 class="cont_e_hh1">во все банки-партнеры</h1>
+          </div>
+          <h1 class="conte_h1">на покупку авто в кредит</h1>
+          <img class="cont_e_img" src="./img/preview 2.png" alt="" />
+        </div>
+        <div class="container_e_right">
+          <div class="conter">
+            <h1 class="conter_h1">Выбрать автомобиль</h1>
+            <div class="conter_sel">
+              <select class="conter_navi__sel" name="" id="">
+                <option selected disabled>Марка</option>
+                <option>BMW</option>
+                <option>Mercedes-Benz</option>
+                <option>Lada</option>
+                <option>Bugatti</option>
+              </select>
+              <select class="conter_navi__sel" name="" id="">
+                <option selected disabled>Модель</option>
+                <option>BMW M5</option>
+                <option>Mercedes-Benz Maybach gls 600</option>
+                <option>Lada 2107</option>
+                <option>Bugatti Veyron</option>
+              </select>
+            </div>
+               <div class="conter_hh">
+                <div class="conter_hh1">Первоначальный взнос</div>
+                <div class="conter_hh2">Срок кредитования</div>
+               </div>
+               <div class="conter_r_h">
+                <div class="conter__r__hh">
+                <div class="conter_r_h1">30 000 Р</div>
+                <div class="conter_r_h2">1 000 000 Р</div>
+            </div>
+            <div class="conter__r_h">
+                <div class="conter__r_h1"> <p class="conterhr1">от 12 мес.</p></div>
+                <div class="conter__r_h2"><p class="conterhr1">до 60 мес.</p></div>
+               </div>
+
+               </div>
+
+               <div class="conter_input">
+               <input class="conter_range" type="range">
+               <input class="conter_range" type="range">
+            </div>
+            <div class="conter_sell">
+                <select class="conter_navi__sell" name="" id="">
+                  <option selected disabled>Цена</option>
+                  <option>30 000</option>
+                  <option>80 000</option>
+                  <option>150 000</option>
+                  <option>250 000</option>
+                  <option>500 000</option>
+                  <option>650 000</option>
+                  <option>850 000</option>
+                  <option>1 000 000</option>
+                </select>
+                <select class="conter_navi__sell" name="" id="">
+                  <option selected disabled>мес.</option>
+                  <option>12 мес.</option>
+                  <option>24 мес.</option>
+                  <option>36 мес.</option>
+                  <option>48 мес.</option>
+                  <option>60 мес.</option>
+                </select>
+              </div>
+              <h1 class="conter_h1">Контактные данные</h1>
+              <div class="conter_sell">
+                <input class="conter_navi__seell" placeholder="Имя" type="text">
+                <input class="conter_navi__seell" placeholder="Телефон" type="text">
+              </div>
+             <div class="contera_p">
+              <p class="contera_h1">Обработка сведений о Пользователях осуществляется в соответсиви <br> c 
+                <a class="contera_h2" href="">Политикой в области обработки и обеспечения безопасности <br> персональных данных.
+                </a></p> 
+             </div>
+              <button class="conter_but">Получить предложение</button>
+          </div>
+        </div>
+      </div>
+      <div class="container_white">
+            <h1 class="cont_w_h1">Три способа выгодно продать</h1>
+            <h1 class="cont_w_hh1">свой автомобиль</h1>
+            <div class="container_wt">
+                <div class="contwt">
+                    <h1 class="contwt_h1">Trade-IN</h1>
+                    <div class="contwt_line"></div>
+                    <div class="contwt_text">Обменяем любой автомобиль из нашего <br> каталога на Ваше авто, с выгодой до 12%</div>
+                    <a class="contwt_a" href="">Подробнее</a>
+                </div>
+                <div class="contwt">
+                    <h1 class="contwt_h1">Выкуп автомобиля</h1>
+                    <div class="contwt_line"></div>
+                    <div class="contwt_text">Дорого выкупив ваш автомобиль, <br> оценка и сделка за один час. До 95% <br> от рыночной стоимости</div>
+                    <a class="contwt_a" href="">Подробнее</a>
+                </div>
+                <div class="contwt">
+                    <h1 class="contwt_h1">Комиссионная продажа</h1>
+                    <div class="contwt_line"></div>
+                    <div class="contwt_text">Продадим автомобиль без лишних забот, <br> по Вашей желаемой цене. Услугу <br> оплачивает покупатель</div>
+                    <a class="contwt_a" href="">Подробнее</a>
+                </div>
+            </div>
+            <div class="conw">
+                <div class="conw_left">
+                    <h1 class="conw_h1">Автомобили с пробегом</h1>
+                    <p class="conw_p1">Продажа подержанных автомобилей в автосалонах Автомаркет в Москве: большой <br> выбор моделей в любых комплектациях. На сайте представлены компактные <br> хэтчбеки, комфортабельные седаны, маневренные кроссоверы и коммерческий <br> транспорт. </p>
+                    <p class="conw_p2">Все авто с пробегом находятся в исправном техническом состоянии и имеют <br> прозрачную историю, которая в обязательном порядке проверяется сотрудниками <br> Автомаркет.</p>
+                    <h1 class="conw_h2">Мы предлагаем ряд выгод от нашего сотрудничества:</h1>
+                    <div class="conw_two">
+                        <div class="conw_o">
+                            <div class="conw_img"><img src="./img/galochka.png" alt=""></div>
+                            <div class="conw_text"><p class="conw_p3">Все автомобили в наличии</p></div>
+                        </div>
+                        <div class="conw_t">
+                            <div class="conw_img"><img src="./img/galochka.png" alt=""></div>
+                            <div class="conw_text"><p class="conw_p3">Консультация специалистов</p></div>
+                        </div>
+                    </div>
+                    <div class="conw_two">
+                        <div class="conw_o">
+                            <div class="conw_img"><img src="./img/galochka.png" alt=""></div>
+                            <div class="conw_text"><p class="conw_p3">Больше 10 банков-партнеров</p></div>
+                        </div>
+                        <div class="conw_t">
+                            <div class="conw_img"><img src="./img/galochka.png" alt=""></div>
+                            <div class="conw_text"><p class="conw_p3">Выгодные условия trade-in</p></div>
+                        </div>
+                    </div>
+                    <div class="conw_two">
+                        <div class="conw_o">
+                            <div class="conw_img"><img src="./img/galochka.png" alt=""></div>
+                            <div class="conw_text"><p class="conw_p3">Test-драйв в любое время</p></div>
+                        </div>
+                        <div class="conw_t">
+                            <div class="conw_img"><img src="./img/galochka.png" alt=""></div>
+                            <div class="conw_text"><p class="conw_p3">Торг у капота</p></div>
+                        </div>
+                    </div>
+                    <p class="conw_p4">Мы готовы удовлетворить ваши требования и пожелания. Наши менеджеры <br> помогут в выборе транспортного средства и его комплектации, что позволит купить <br> авто с пробегом с любым бюджетом. Звоните и уточняйте цены и комплектации <br> моделей у наших сотрудников.</p>
+                </div>
+                <div class="conw_right">
+                    <h1 class="conwr_h1">Преимущества <br> Автомаркета</h1>
+                    <p class="conwr_p">Покупка подержанного <br> автомобиля – наиболее <br> удобный по цене способ <br> покупки. </p>
+                    <p class="conwr_p1">Если вы рассматриваете этот вариант, приглашаем вас в наши автоцентры в Москве. </p>
+                    <img class="conwr_img" src="./img/vrym vrym.png" alt="">
+                </div>
+            </div>
+      </div>
+      <div class="container_grey">
+        <h1 class="contg_h1">Есть вопросы? Мы свяжемся с вами</h1>
+        <div class="contg_inp">
+            <input class="contg_input" placeholder="Имя" type="text">
+            <input class="contg_input" placeholder="Телефон" type="text">
+            <select class="contg_sel" name="" id="">
+                <option disabled>  Тип обращения</option>
+                <option>  Тех поддерджка</option>
+                <option>  Дополнительная Информация</option>
+                <option>  Жалобы</option>
+              </select>
+              <button class="contg_but">Заказать звонок</button>
+        </div>
+        <div class="contg_text">
+            <p class="contg_p1">Обработка сведений о Пользователях осуществляется  в соответствии с <a class="contg_a" href=""> Политикой в области <br> обработки и обеспечения безопасности персональных данных.</a></p>
+        </div>
+      </div>
+      <div class="container_black">
+        <div class="container__black">
+        <div class="contblack__image">
+          <img src="./img/end.png" alt="">
+        </div>
+        <div class="contblack_one">
+            <h1 class="contblack_h1h1">Купить авто</h1>
+            <p class="contblack_pp">Каталог авто</p>
+            <p class="contblack_pp">Расчитать кредит</p>
+            <p class="contblack_pp">Подбор автомобиля</p>
+            <p class="contblack_pp">Записаться на Test Drive</p>
+        </div>
+        <div class="contblack_two">
+            <h1 class="contblack_h1h1">Продать авто</h1>
+            <p class="contblack_pp">Оценить авто</p>
+            <p class="contblack_pp">Trade in/Обмен</p>
+            <p class="contblack_pp">Комиссионая продажа</p>
+          </div>    
+            <div class="contblack_tree">
+                <h1 class="contblack_h1h1">Услуги</h1>
+                <p class="contblack_pp">Автокредитование</p>
+                <p class="contblack_pp">Автострахование</p>
+            </div>
+            <div class="contblack_four">
+                <h1 class="contblack_h1h1">О компании</h1>
+                <p class="contblack_pp">Новости</p>
+                <p class="contblack_pp">Вакансии</p>
+                <p class="contblack_pp">Контакты</p>
+            </div>
+            <div class="contblack_five">
+            <h1 class="contblack_h1h1">8 (800) 551-84-21</h1>
+            <div class="contblack__img">
+              <img class="contblack_img" src="./img/end1.png" alt=""> 
+              <img class="contblack_img"  src="./img/end2.png" alt="">
+              <img class="contblack_img"  src="./img/end3.png" alt="">
+              <img class="contblack_img"  src="./img/end4.png" alt="">
+              <img class="contblack_img"  src="./img/end5.png" alt="">  
+          </div>
+            <p class="contblack_pp">Авито магазин</p>
+            </div>  
+          </div>
+      </div> 
+    </div>
+  </body>   
+</html>
